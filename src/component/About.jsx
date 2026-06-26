@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 const API = 'https://portfolio-backend-5wue.onrender.com'
+
 /**
  * About — Developer profile page
  * Matches Home.jsx's dark IDE aesthetic: same theme tokens, same tab bar,
@@ -554,16 +555,12 @@ const About = () => {
                       </a>
                     </p>
                   )}
-                  {profile.phone && (
-                    <p style={{ color: theme.textMuted, marginBottom: "0.6rem", fontSize: "0.9rem" }}>
-                      <span style={{ color: theme.property }}>phone</span>: {profile.phone}
-                    </p>
-                  )}
-                  {profile.address && (
-                    <p style={{ color: theme.textMuted, marginBottom: 0, fontSize: "0.9rem" }}>
-                      <span style={{ color: theme.property }}>location</span>: {profile.address}
-                    </p>
-                  )}
+                  <p style={{ color: theme.textMuted, marginBottom: "0.6rem", fontSize: "0.9rem" }}>
+                    <span style={{ color: theme.property }}>phone</span>: 7044986352
+                  </p>
+                  <p style={{ color: theme.textMuted, marginBottom: 0, fontSize: "0.9rem" }}>
+                    <span style={{ color: theme.property }}>location</span>: Aurobindu soroni, Dum Dum Cantoment, kolkata-28
+                  </p>
                 </div>
 
                 {/* Social Links */}
@@ -578,17 +575,13 @@ const About = () => {
                       </a>
                     )}
                     {profile.github && (
-                      <a href={profile.github} target="_blank" rel="noopener noreferrer" className="about-link">
+                      <a href="https://github.com/SupainNandy" target="_blank" rel="noopener noreferrer" className="about-link">
                         GitHub ↗
                       </a>
                     )}
-                    {profile.portfolio && (
-                      <a href={profile.portfolio} target="_blank" rel="noopener noreferrer" className="about-link">
-                        Portfolio ↗
-                      </a>
-                    )}
+                    
                     {profile.twitter && (
-                      <a href={profile.twitter} target="_blank" rel="noopener noreferrer" className="about-link">
+                      <a href="https://x.com/supain_nandy" target="_blank" rel="noopener noreferrer" className="about-link">
                         Twitter / X ↗
                       </a>
                     )}
