@@ -702,7 +702,7 @@ const Home = () => {
               </div>
               <div style={{ padding: "1.5rem", textAlign: "center" }}>
                 <img
-                  src="public\IMG_20260415_170003.jpg"
+                  src="/IMG_20260415_170003.jpg"
                   alt={personalInfo.name}
                   style={{
                     width: "100%",
