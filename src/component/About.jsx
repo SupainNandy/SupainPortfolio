@@ -424,23 +424,21 @@ const About = () => {
                 {profile.name}
               </h3>
               <p className="mono" style={{ color: theme.func, fontSize: "0.85rem", marginTop: "0.4rem", marginBottom: 0 }}>
-                {profile.title}
+                MERN Stack Developer | Full-Stack Web Developer | Building Scalable & Modern Web Applications
               </p>
 
-              {profile.bio && (
-                <p
-                  style={{
-                    color: theme.textMuted,
-                    fontSize: "0.85rem",
-                    fontStyle: "italic",
-                    marginTop: "1rem",
-                    marginBottom: 0,
-                    lineHeight: 1.6,
-                  }}
-                >
-                  “{profile.bio}”
-                </p>
-              )}
+              <p
+                style={{
+                  color: theme.textMuted,
+                  fontSize: "0.85rem",
+                  fontStyle: "italic",
+                  marginTop: "1rem",
+                  marginBottom: 0,
+                  lineHeight: 1.6,
+                }}
+              >
+                “Passionate MERN Stack Developer specializing in building responsive, scalable, and user-friendly web applications. Skilled in React, Node.js, Express.js, MongoDB, and REST APIs, with hands-on experience developing full-stack projects from concept to deployment. I enjoy solving real-world problems through clean, efficient code and continuously learning modern web technologies”
+              </p>
             </div>
 
             {/* Details column */}
