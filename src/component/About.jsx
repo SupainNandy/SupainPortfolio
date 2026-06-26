@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-const API = import.meta.env.VITE_BACKNED_URI
+const API = import.meta.env.VITE_BACKEND_URI
 /**
  * About — Developer profile page
  * Matches Home.jsx's dark IDE aesthetic: same theme tokens, same tab bar,
