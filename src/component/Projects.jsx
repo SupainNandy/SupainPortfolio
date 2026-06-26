@@ -252,7 +252,7 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const API = import.meta.env.VITE_BACKEND_URI
+  const API = 'https://portfolio-backend-5wue.onrender.com'
   useEffect(() => {
     const fetchProjects = async () => {
       try {

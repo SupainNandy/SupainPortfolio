@@ -13,7 +13,7 @@ import axios from "axios";
  *
  * Modals below are plain React-controlled (no bootstrap.bundle.js needed).
  */
-const API = `${import.meta.env.VITE_BACKEND_URI}/admin`;
+const API = `https://portfolio-backend-5wue.onrender.com/admin`;
 
 // console.log(API);
 axios.defaults.withCredentials = true;

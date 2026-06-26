@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-const API = import.meta.env.VITE_BACKEND_URI
+const API = 'https://portfolio-backend-5wue.onrender.com'
 /**
  * About — Developer profile page
  * Matches Home.jsx's dark IDE aesthetic: same theme tokens, same tab bar,

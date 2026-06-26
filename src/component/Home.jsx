@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
-const API = import.meta.env.VITE_BACKEND_URI
+const API = 'https://portfolio-backend-5wue.onrender.com'
 
 /**
  * Home — Developer portfolio landing page
