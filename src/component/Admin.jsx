@@ -13,8 +13,9 @@ import axios from "axios";
  *
  * Modals below are plain React-controlled (no bootstrap.bundle.js needed).
  */
-
 const API = `${import.meta.env.VITE_BACKEND_URI}/admin`;
+
+// console.log(API);
 axios.defaults.withCredentials = true;
 
 /* ---------------------------------------------------------
