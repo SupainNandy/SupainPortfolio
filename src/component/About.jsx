@@ -390,7 +390,7 @@ const About = () => {
             >
               {profile.profileImage ? (
                 <img
-                  src={profile.profileImage}
+                  src="\IMG_20260415_170003.jpg"
                   alt={profile.name}
                   style={{
                     width: "150px",
