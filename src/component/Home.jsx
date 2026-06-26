@@ -983,7 +983,7 @@ const Home = () => {
             }}
           >
             <a
-              href="mailto:supainnandy123@gmail.com"
+              href="mailto:supainnandy1234@gmail.com"
               className="cta-primary"
             >
               $ contact --email
